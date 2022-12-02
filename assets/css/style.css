@@ -4,12 +4,12 @@
 @import './global/header.css';
 @import './global/footer.css';
 
-/* Home */
-@import './home/home.css';
-@import './home/galeria.css';
-
 /* Utility */
 
 @import 'utility/componentes.css';
 @import 'utility/tipografia.css';
 @import 'utility/cores.css';
+
+/* Home */
+@import './home/home.css';
+@import './home/galeria.css';
