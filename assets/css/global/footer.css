@@ -1,0 +1,139 @@
+.footer-bg {
+    background-color: var(--cor-1);
+}
+
+.footer-conteudo {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e6e5e5;
+}
+
+.footer-menu {
+    display: grid;
+    gap: 10px;
+}
+
+.footer-menu li:hover {
+    color: rgb(61, 61, 61);
+    transform: scale(1.01);
+}
+
+.footer-noticias p {
+    margin-bottom: 10px;
+}
+
+.footer-noticias .inscrever {
+    display: flex;
+}
+
+.footer-noticias input {
+    background-color: rgb(245, 245, 245);
+    border: 1px solid #ececec;
+    padding: 10px;
+}
+
+.footer-noticias input:focus {
+    background-color: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+    border: .5px solid rgba(0, 0, 0, 0.562);
+    outline: none;
+}
+
+.footer-noticias input::placeholder {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9rem;
+}
+
+.footer-noticias button {
+    font: var(--font-parag-1);
+    font-size: 1rem;
+    color: var(--cor-0);
+    background-color: var(--cor-p2);
+    border: 1px solid transparent;
+    padding: 8px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+.footer-noticias button:hover {
+    color: var(--cor-12);
+    background-color: var(--cor-p1);
+    border: 1px solid rgba(184, 184, 184, 0.596);
+}
+
+.footer-plataformas {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-redes {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-redes a {
+    color: var(--cor-p2);
+    font-size: 3rem;
+    height: 48px;
+    width: 48px;
+}
+
+.footer-redes a:hover {
+    transform: scale(1.05);
+}
+
+.footer-pagamentos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+}
+
+.footer-pagamentos img {
+    width: 70px;
+    height: 50px;
+    object-fit: contain;
+}
+
+@media (max-width:800px) {
+    .footer-plataformas {
+        align-items: center;
+    }
+    .footer-conteudo {
+        max-width: 600px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 60px;
+    }
+
+    .footer-noticias {
+        width: 100%;
+    }
+
+    .footer-noticias .inscrever {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .footer-noticias .inscrever button {
+        margin-left: 0;
+    }
+
+    .footer-redes a {
+        font-size: 1.5rem;
+        height: auto;
+        width: auto;
+    }
+
+    .footer-pagamentos img {
+        width: 30px;
+        height: 20px;
+    }
+}
