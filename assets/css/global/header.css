@@ -1,0 +1,33 @@
+header.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.header-logo > a,
+.header-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-menu {
+    gap: 20px;
+
+}
+
+.header-menu li {
+    font-size: 1.2rem;
+    height: 15px;
+    transition: 0.2s;
+}
+
+.header-menu li:hover {
+    transform: scale(1.2);
+}
+
+.header-menu li a {
+    color: var(--cor-p1);
+}

@@ -1,0 +1,24 @@
+:root {
+    --font-title-1: 600 2rem/1 'Source Sans Pro', sans-serif;
+    --font-title-2: 600 1rem/1 'Source Sans Pro', sans-serif;
+    --font-parag-1: 400 1.25rem/1 'Source Sans Pro', sans-serif;
+    --font-parag-2: 400 0.75rem/1 'Source Sans Pro', sans-serif;
+    --font-price-1: 400 1.5rem/1 'Source Sans Pro', sans-serif;
+}
+
+.font-title-1 {
+    font: var(--font-title-1);
+}
+.font-title-2 {
+    font: var(--font-title-2);
+}
+.font-parag-1 {
+    font: var(--font-parag-1);
+}
+.font-parag-2 {
+    font: var(--font-parag-2);
+}
+.font-price-1 {
+    font: var(--font-price-1);
+}
+
